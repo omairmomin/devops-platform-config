@@ -502,7 +502,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/omairmomin/frontend:4
+          image: ghcr.io/omairmomin/frontend:5
           ports:
           - containerPort: 8080
           readinessProbe:
